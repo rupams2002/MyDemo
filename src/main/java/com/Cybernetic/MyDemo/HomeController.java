@@ -8,9 +8,7 @@ public class HomeController {
 	
 	@RequestMapping("home")
 	public String home() {
-		return "home.jsp";
-		
-	}
-	
+		return "home.jsp";		
+	}	
 
 }
